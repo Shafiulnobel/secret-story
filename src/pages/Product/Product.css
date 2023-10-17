@@ -1,0 +1,14 @@
+.txt{
+    text-decoration: line-through;
+}
+.awesome{
+    color: black;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 50%;
+}
+.awesome:hover{
+    background-color: orange;
+    color: #ededed;
+
+}

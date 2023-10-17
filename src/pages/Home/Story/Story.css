@@ -1,0 +1,9 @@
+.bg{
+    background-image: url('https://i.ibb.co/JmHPJ4C/The-Secret-Story-Banners-About-Us-1920x850-Updated-1.png');
+    background-repeat: no-repeat;
+    height: 700px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
