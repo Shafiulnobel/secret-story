@@ -14,28 +14,28 @@ const About = () => {
             <Container >
                 <h4 className='mt-5 '>Home / <span style={{ color: 'grey' }}>About</span></h4>
                 <hr />
-                <Row>
+                <Row xs={1} md={2}>
                     <Col>
-                        <img src="https://i.ibb.co/cC725vL/Cool-Breez.png" alt="" />
+                        <img className='img-fluid' src="https://i.ibb.co/cC725vL/Cool-Breez.png" alt="" />
                     </Col>
                     <Col className='text-center'>
                         <h2 className='fw-bold'>Our Secret Story</h2>
                         <p className='fs-5 '>We believe every scent creates a story! Creating an alluring perfume is the art of combining different fragrances. French perfumes inspire our perfume range to give you a pleasant smell at an affordable price. We made special efforts to combine, mix, and match scents to create a unique aroma that is pleasing and will last all day. We want to make our perfumes an ornament that you will wear daily!</p>
                     </Col>
                 </Row>
-                <Row>
+                <Row xs={1} md={2}>
                     <Col className='text-center mt-4'>
                         <h2 className='fw-bold'>Our Philosophy</h2>
                         <p className='fs-5'>‘The Secret Story’ is a small initiation to give the best perfumes in the world, full of luxury and pricy perfume market. Our ‘secret goal’ is to make scents that smell luxurious at affordable price points. Traditionally, we wear perfume only on the special occasion. But we do crave that freshness and fragrance daily. Fragrance uplifts our mood and gives us the strength to do something productive. You’ll love this secret that smells good!</p>
                     </Col>
                     <Col className='text-center'>
-                        <img src="https://i.ibb.co/4jpsWrV/Island-Mist-2-q2yozp5khhvuil7ynbykxwkz4ayqdvkfb74u1b4exs.png" alt="" />
+                        <img className='img-fluid' src="https://i.ibb.co/4jpsWrV/Island-Mist-2-q2yozp5khhvuil7ynbykxwkz4ayqdvkfb74u1b4exs.png" alt="" />
 
                     </Col>
                 </Row>
                 <div className='my-5'>
                 <h2 className=' text-center my-4 fw-bold'>Our Values</h2>
-                <Row xs={2} md={4} className="g-4 ">
+                <Row xs={1} md={2} lg={4} className="g-4 ">
                     <Col>
                         <Card className='py-2 text-center '>
                         <FontAwesomeIcon className='fs-1' icon={faAward} />
